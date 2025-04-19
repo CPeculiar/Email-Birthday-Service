@@ -73,9 +73,9 @@ async function startBirthdayService() {
   // Get current time
   // const now = new Date();
   
-  // Calculate time until 12:00 AM (midnight)
+  // Calculate time until 1:00 AM (midnight)
   const runAt = new Date();
-  runAt.setHours(0, 0, 0, 0);  // Set to midnight (12 AM)
+  runAt.setHours(1, 0, 0, 0);  // Set to midnight (1 AM)
   // runAt.setHours(9, 0, 0, 0); // 9:00 AM
   
     // // Adjust for WAT (Render runs in UTC, WAT = UTC+1)
@@ -99,8 +99,8 @@ async function startBirthdayService() {
 
   // Schedule the job to run every day at 9:00 AM
   // cron.schedule('0 9 * * *', async () => {
-    // Schedule the job to run every day at 12:00 AM (midnight)
-    cron.schedule('0 0 * * *', async () => {
+    // Schedule the job to run every day at 1:00 AM (midnight)
+    cron.schedule('0 1 * * *', async () => {
     console.log('Running scheduled birthday email job at', new Date().toISOString());
     await sendBirthdayEmails();
   }, {
