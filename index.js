@@ -5,6 +5,10 @@ const path = require('path');
 const apiService = require('./apiService');
 const { sendBirthdayEmails, runTest } = require('./birthdayJob');
 const emailService = require('./emailService');
+const { DateTime } = require('luxon');
+
+// Get current time in WAT
+const now = DateTime.now().setZone('Africa/Lagos');
 
 // Create Express app for admin dashboard
 const app = express();
@@ -54,7 +58,7 @@ app.get('/run-job', async (req, res) => {
 
 // Start Express server
 app.listen(PORT, () => {
-  console.log(`Admin dashboard available at http://localhost:${PORT}`);
+  console.log(`Admin dashboard available at http://localhost:${PORT} or https://email-birthday-service.onrender.com/` );
 });
 
 // Start the birthday service
@@ -67,13 +71,16 @@ async function startBirthdayService() {
   }
 
   // Get current time
-  const now = new Date();
+  // const now = new Date();
   
   // Calculate time until 12:00 AM (midnight)
   const runAt = new Date();
   runAt.setHours(0, 0, 0, 0);  // Set to midnight (12 AM)
   // runAt.setHours(9, 0, 0, 0); // 9:00 AM
   
+    // // Adjust for WAT (Render runs in UTC, WAT = UTC+1)
+    // runAt.setTime(runAt.getTime() - 60 * 60 * 1000);
+
   // If it's already past midnight, schedule for tomorrow
   if (now > runAt) {
     runAt.setDate(runAt.getDate() + 1);
@@ -96,6 +103,8 @@ async function startBirthdayService() {
     cron.schedule('0 0 * * *', async () => {
     console.log('Running scheduled birthday email job at', new Date().toISOString());
     await sendBirthdayEmails();
+  }, {
+    timezone: 'Africa/Lagos'
   });
 
   // Check for test mode from command line

@@ -16,13 +16,15 @@
     "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "luxon": "^3.6.1",
     "moment": "^2.30.1",
     "node-cron": "^3.0.3",
     "nodemailer": "^6.10.1",
     "pg": "^8.14.1",
     "sequelize": "^6.37.7",
     "sharp": "^0.34.1",
-    "twilio": "^5.5.2"
+    "twilio": "^5.5.2",
+    "tz-offset": "^0.0.2"
   },
   "description": "",
   "devDependencies": {
