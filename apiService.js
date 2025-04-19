@@ -10,21 +10,27 @@ class ApiService {
 
   async login() {
     try {
+      console.log(`Attempting to login to ${this.baseUrl}/login/ with username: ${process.env.API_USERNAME}`); 
       const response = await axios.post(`${this.baseUrl}/login/`, {
         username: process.env.API_USERNAME,
         password: process.env.API_PASSWORD
       });
+
+      console.log('Login response:', JSON.stringify(response.data));
       
       if (response.data && response.data.access) {
         this.accessToken = response.data.access;
-        console.log('Login successful');
+        console.log('Login successful, received token');
         return true;
       } else {
-        console.error('Login failed: No access token received');
+        console.error('Login failed: No access token in response data:', response.data);
         return false;
       }
     } catch (error) {
       console.error('Login failed:', error.message);
+      if (error.response) {
+        console.error('Server response:', error.response.status, error.response.data);
+      }
       return false;
     }
   }
