@@ -71,7 +71,7 @@ async function startBirthdayService() {
   
   // Calculate time until 9:00 AM
   const runAt = new Date();
-  runAt.setHours(16, 0, 0, 0);
+  runAt.setHours(22, 30, 0, 0);
   // runAt.setHours(9, 0, 0, 0); // 9:00 AM
   
   // If it's already past 9:00 AM, schedule for tomorrow
@@ -92,7 +92,7 @@ async function startBirthdayService() {
 
   // Schedule the job to run every day at 9:00 AM
   // cron.schedule('0 9 * * *', async () => {
-    cron.schedule('0 16 * * *', async () => {
+    cron.schedule('30 21 * * *', async () => {
     console.log('Running scheduled birthday email job at', new Date().toISOString());
     await sendBirthdayEmails();
   });

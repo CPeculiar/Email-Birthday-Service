@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-04-17T20:08:16.668Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<b8d2c548-9ad4-4974-1f58-dec7c3da1f92@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-17T20:11:20.493Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<0ca7c527-c127-fb8c-d184-ce0128722b4f@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-17T20:11:27.559Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<9f9de507-c1f9-94d9-1bdd-7840e5e925c6@thelordsbrethrenchurch.org>",
+    "status": "success"
+  }
+]

@@ -1,18 +1,20 @@
 const axios = require('axios');
+require('dotenv').config();
 
 class ApiService {
   constructor() {
-    this.baseUrl = 'https://api.thelordsbrethrenchurch.org/api';
+    // this.baseUrl = 'https://api.thelordsbrethrenchurch.org/api';
+    this.baseUrl = process.env.API_BASE_URL;
     this.accessToken = null;
   }
 
   async login() {
     try {
       const response = await axios.post(`${this.baseUrl}/login/`, {
-        username: process.env.API_USERNAME || 'Peculiar21',
-        password: process.env.API_PASSWORD || 'Peculiar21#'
+        username: process.env.API_USERNAME,
+        password: process.env.API_PASSWORD
       });
-
+      
       if (response.data && response.data.access) {
         this.accessToken = response.data.access;
         console.log('Login successful');
@@ -34,7 +36,7 @@ class ApiService {
       }
   
       let allUsers = [];
-      let nextPageUrl = `${this.baseUrl}/users/`;
+      let nextPageUrl = `${this.baseUrl}/users/?limit=100`;
       let pageCount = 0;
   
       console.log('Starting to fetch user data from API...');

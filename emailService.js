@@ -1,6 +1,8 @@
 const nodemailer = require('nodemailer');
 const path = require('path');
 const fs = require('fs');
+require('dotenv').config();
+
 
 class EmailService {
   constructor() {
@@ -12,7 +14,7 @@ class EmailService {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS
       }
-    });
+    });  
     
     // Initialize email log storage
     this.emailLogs = [];
