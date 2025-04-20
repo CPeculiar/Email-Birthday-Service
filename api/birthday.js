@@ -1,12 +1,12 @@
+// api/birthday.js
 const axios = require('axios');
 
 module.exports = async (req, res) => {
   try {
-    const result = await axios.get('https://email-birthday-service.onrender.com/run-job');
-    console.log('Successfully called the Render endpoint');
-    res.status(200).json({ message: 'Success', data: result.data });
+    const response = await axios.get('https://email-birthday-service.onrender.com/run-job');
+    res.status(200).json({ message: 'Render endpoint called successfully', result: response.data });
   } catch (error) {
-    console.error('Error hitting the Render endpoint:', error.message);
+    console.error('Error:', error.message);
     res.status(500).json({ error: 'Failed to call Render endpoint' });
   }
 };
