@@ -1,0 +1,11 @@
+{
+    "functions": {
+      "api/birthday.js": {
+        "runtime": "nodejs18.x"
+      }
+    },
+    "routes": [
+      { "src": "/api/birthday", "dest": "/api/birthday.js" }
+    ]
+  }
+  

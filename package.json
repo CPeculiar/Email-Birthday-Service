@@ -26,8 +26,8 @@
     "twilio": "^5.5.2",
     "tz-offset": "^0.0.2"
   },
-  "description": "",
   "devDependencies": {
     "esbuild": "^0.25.2"
-  }
+  },
+  "description": ""
 }

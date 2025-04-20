@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-04-20T08:19:02.829Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<851f14c2-32de-8287-b0f7-22d4d78c7dc9@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-20T08:19:50.741Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<c57ade47-f883-2c0e-1d4a-4ebee997d7ab@thelordsbrethrenchurch.org>",
+    "status": "success"
+  }
+]

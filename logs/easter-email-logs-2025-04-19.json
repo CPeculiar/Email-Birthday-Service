@@ -1,0 +1,875 @@
+[
+  {
+    "timestamp": "2025-04-19T18:30:36.771Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<38a16c42-90f2-dddb-c6e6-57e376f9e61b@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:33:13.306Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<80692ad4-aa40-3f35-cbf3-0537738de089@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:40:02.674Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<95a2f86a-2e06-cff0-b21a-39df5c10096a@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:46:11.332Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<1916c6f1-82a4-c433-846c-52dd3bdbc98d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:49:41.194Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<b3540b7d-4fbd-89aa-d2c2-cb07bc7a2560@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:50:37.071Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<60ef9bf7-d163-78aa-996a-4373cdc4f0f0@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:52:27.593Z",
+    "recipient": "elodikek@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<42d3d1d0-176e-ef52-2481-124ebfb940c2@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T18:57:12.672Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<5d4332f3-0651-4a09-e211-37c5c69c0c0b@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T19:01:56.937Z",
+    "recipient": "annabeldimma1@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<d04da4ba-970e-49e1-2645-f23a049d65fa@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T21:06:50.379Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<9fe32874-81bf-1978-7936-715333e93780@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T21:09:58.284Z",
+    "recipient": "elodikek@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<dbb2c963-038b-1b4b-b5bd-ab2e4069e760@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:00:13.365Z",
+    "recipient": "adaobinweke94@gmail.com",
+    "name": "Adaobi Nweke",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<542d053e-2af3-2319-f5d9-d601a071d28d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:00:23.269Z",
+    "recipient": "anene818@gmail.com",
+    "name": "Anene Juliet",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<67f97ef3-46ba-61ec-4c59-86b73a51da92@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:00:33.786Z",
+    "recipient": "anointedndubuisi@gmail.com",
+    "name": "Anointed Ndubuisi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<2bf56354-272d-b7eb-015e-4840932b1ebb@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:00:42.819Z",
+    "recipient": "princearthurezechukwu@gmail.com",
+    "name": "Arthur Ezechukwu",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<a946bbaf-0adc-02a4-5b2c-97173cbaa604@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:00:52.247Z",
+    "recipient": "favourkosi4196@gmail.com",
+    "name": "Asochukwu Kosi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<18b723ea-a722-3dd9-674c-b166c5851c2e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:01.043Z",
+    "recipient": "beautymmachukwu40@gmail.com",
+    "name": "Beauty Ezeokwuorah",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<3062cacd-ebc9-3b0d-c76a-333590c0f62d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:10.153Z",
+    "recipient": "mercybrohien@gmail.com",
+    "name": "Bidiki Mercy",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<06f81489-a421-5b30-9351-b35fe9e43133@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:18.918Z",
+    "recipient": "blessinganajemba1@gmail.com",
+    "name": "Blessing Anajemba",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<b00a30ab-d473-67e4-923c-dff6e6e7d88d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:27.702Z",
+    "recipient": "chinazab00@gmail.com",
+    "name": "Blessing Chinaza Okafor",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<7f6bf70e-0bde-635f-1d53-05eacc24cafb@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:36.430Z",
+    "recipient": "flourishc6@gmail.com",
+    "name": "Chidinma Egwu",
+    "title": "Evangelist",
+    "gender": "Female",
+    "messageId": "<5553f23b-46be-7bcf-9308-523b72d88c4d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:45.507Z",
+    "recipient": "ikechukwuchijioke153@gmail.com",
+    "name": "Chijioke Ikechukwu",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<042282bc-8fc4-ed29-6991-77b8877d95dc@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:01:54.602Z",
+    "recipient": "nwekeraymond686@gmail.com",
+    "name": "Chika Nweke",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<b2e6a600-2043-fc0a-a2f2-940aebe2647d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:03.803Z",
+    "recipient": "chikagrace2020@gmail.com",
+    "name": "Chika Grace Mbagwu",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<b1826412-0a64-c07f-aab2-040e6950ad93@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:13.248Z",
+    "recipient": "chimuanyaamamchukwu@gmail.com",
+    "name": "Chimuanya Amamchukwu",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<668be6ae-26d5-701e-fad7-dd75599a611c@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:22.554Z",
+    "recipient": "chiaforchinasa@gmail.co",
+    "name": "Chinaza Chiafor",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<3e58f1de-6bf0-e679-d85e-bdb5ad91cd30@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:31.370Z",
+    "recipient": "asoumecf@gmail.com",
+    "name": "Chinecherem Favour",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<4827eee2-09cd-1666-f4d9-bf2d7b347507@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:40.684Z",
+    "recipient": "peacenwankwo3579@gmail.com",
+    "name": "CHINECHEREM NWANKWO",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<e3ee96e8-d835-88e6-7724-e287e2d01a9e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:49.769Z",
+    "recipient": "ogambachukwunedu@gmail.com",
+    "name": "Chinedu Ogamba",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<936df620-b8dc-f9f5-95f5-8688f082abae@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:02:58.770Z",
+    "recipient": "luciaakunna21@gmail.com",
+    "name": "Chinyere Akunna",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<f3b78e03-546e-a66d-e4ee-fad504bc9f51@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:03:07.903Z",
+    "recipient": "omah08142@gmail.com",
+    "name": "Chioma Cynthia Madubugwu",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<0c9d048d-b724-142c-5ee5-6639fe71a213@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:03:34.219Z",
+    "recipient": "preciouschisom547@gmail.com",
+    "name": "Chisom Ikechukwu",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "write ECONNRESET",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-19T23:03:55.271Z",
+    "recipient": "chukwusomogbonna26@gmail.com",
+    "name": "Chisom Ogbonna",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-19T23:04:16.339Z",
+    "recipient": "besofkingsley@gmail.com",
+    "name": "Chukwuebuka Nwankwo",
+    "title": "Bro.",
+    "gender": "Male",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-19T23:04:37.373Z",
+    "recipient": "ebubechuck@gmail.com",
+    "name": "Chukwuma Okeke",
+    "title": "Bro.",
+    "gender": "Male",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-19T23:04:58.444Z",
+    "recipient": "clintononyebuchi.u@gmail.com",
+    "name": "Clinton Uwaoma",
+    "title": "Bro.",
+    "gender": "Male",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-19T23:05:17.094Z",
+    "recipient": "ediedione27@gmail.com",
+    "name": "Dione Eleanor",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<6dbfe209-482b-44b1-c0c9-cb5efbe2ef75@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:05:27.163Z",
+    "recipient": "divineifeanyinwolisa@gmail.com",
+    "name": "Divine Nwolisa",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<c8e7d453-04dd-6212-045e-2635c316a4cf@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:05:36.051Z",
+    "recipient": "divinegiftchimzuorum@gmail.com",
+    "name": "DIVINE-GIFT CHUKWUDI",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<7b77a140-b783-4f6a-2136-dffd7f27f1b0@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:05:45.125Z",
+    "recipient": "ebenezernwolisa100@gmail.com",
+    "name": "Ebenezer Nwolisa",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<7d334634-51e5-8b3f-7ed0-0519b6555ae9@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:05:53.829Z",
+    "recipient": "catzelmarshall@gmail.com",
+    "name": "Ejiofor Chidiebere",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<48c57427-1123-70b2-e62c-6b93617b522c@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:02.979Z",
+    "recipient": "besofelochukwu@gmail.com",
+    "name": "Elochukwu Udegbunam",
+    "title": "Reverend",
+    "gender": "Male",
+    "messageId": "<c545f8fa-4398-eb6d-5923-46a1e039b322@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:12.270Z",
+    "recipient": "emekanweke5050@gmail.com",
+    "name": "Emeka Nweke",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<4dbb0165-4c17-e228-7fa8-43996d48f524@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:21.361Z",
+    "recipient": "emmacoyhong416@gmail.com",
+    "name": "Emmanuel Nsikan",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<940055f7-1e5c-d1fb-5453-1a0dcec8319e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:30.724Z",
+    "recipient": "emmchukzy@gmail.com",
+    "name": "Emmanuel Chukwuemeka",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<5d5d702f-2ef1-1698-0e9b-c8df94c881ea@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:39.989Z",
+    "recipient": "eminaemmanuel1@gmail.com",
+    "name": "Emmanuel Emina",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<b5a64694-ad16-4f35-9fa0-a0ed02a2748e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:49.103Z",
+    "recipient": "emmamaryokoye1@gmail.com",
+    "name": "Emmanuel Okoye",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<bce00a57-09da-f3c7-2a09-ce1df12932ac@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:06:58.538Z",
+    "recipient": "ellamaris09@gmail.com",
+    "name": "Emmanuella Stephen",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<02a23022-43ad-5e6e-5a29-004211872db2@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:07:07.779Z",
+    "recipient": "obinnadavid680@gmail.com",
+    "name": "Ezekwe Obinna David chukwuma",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<131b9307-802f-6d4f-79b3-86c4f611d2b2@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:07:16.944Z",
+    "recipient": "faithedesiribidiki@gmail.com",
+    "name": "Faith Bidiki",
+    "title": "Pastor",
+    "gender": "Female",
+    "messageId": "<5fcc6d93-a060-8d98-a4b9-bbecd3e9be4e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:07:26.022Z",
+    "recipient": "favourrapheal616@gmail.com",
+    "name": "Favour Chinecherem",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<ef0c7f67-f3c0-c4f5-af05-189f5041e182@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:07:36.322Z",
+    "recipient": "favourchiaghanam2@gmail.com",
+    "name": "Favour Chiaghanam",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<84210d0d-dd6d-6cac-283d-4bbafdb02cc7@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:07:45.345Z",
+    "recipient": "favvyneche@gmail.com",
+    "name": "Favour Chinecherem",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<ecd9f947-d494-abc7-2724-ce6be1199a05@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:07:54.677Z",
+    "recipient": "okonkwoifeanyi80@yahoo.com",
+    "name": "Godsnature Okonkwo",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<60f5552f-e50b-da29-b5ed-363d284a1879@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:08:03.855Z",
+    "recipient": "godswillpronswillgupabal@gmail.com",
+    "name": "Godswill Nweke",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<5a93a15d-792e-ae8f-8856-84794572080a@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:08:12.879Z",
+    "recipient": "michaelfavour53@gmail.com",
+    "name": "Ifeanyi Favour",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<a1e2f49f-8264-e514-290b-43c4a08076b7@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:08:22.141Z",
+    "recipient": "ogidiifechukwu6@gmail.com",
+    "name": "Ifechukwu Ogidi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<ff3f3f4e-0d0e-98d1-a79c-e2680b5e47ed@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:08:31.439Z",
+    "recipient": "gracevivian52@gmail.com",
+    "name": "Ifeduba Grace",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<2462a381-e12b-a1c2-350e-8afa842e5e29@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:08:40.915Z",
+    "recipient": "ikemefunaifeoma4@gmail.com",
+    "name": "Ifeoma Ikemefuna",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<9ac73b9c-7269-ea0f-b9b8-c6ec3301eb0c@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:08:52.802Z",
+    "recipient": "ifeyinwaprecious716@gmail.com",
+    "name": "Ifeyinwa Onwuteaka",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<1a285256-2f94-792a-65f7-89b700630f36@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:01.988Z",
+    "recipient": "lovemolokwu@gmail.com",
+    "name": "Ifunanya Molokwu",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<3d39711e-e989-6834-be1b-eddbc79fdbee@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:12.302Z",
+    "recipient": "ike_christ93@yahoo.com",
+    "name": "Ikechukwu Egwu",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<845ebbee-3659-4fb9-963c-0304b265ca0f@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:21.361Z",
+    "recipient": "irenechionna2@gmail.com",
+    "name": "Irene Chinenye Ogbonna",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<08d9376f-ef6c-80e3-5f18-8b0b56c5c2fc@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:30.464Z",
+    "recipient": "jenniferystaronyinyechi@email.com",
+    "name": "Jennifer Onyinyechi",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<b9c2e9ac-4cee-9491-34b7-a4992df62107@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:40.853Z",
+    "recipient": "joyfavour225@gmail.com",
+    "name": "Joy Favour",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "read ECONNRESET",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:49.961Z",
+    "recipient": "ateliadaeze23@gmail.com",
+    "name": "Juliet Adaeze",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<9160979e-a9f4-65d5-438e-a284cc3efc3a@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:09:59.219Z",
+    "recipient": "kelechibtcboy@gmail.com",
+    "name": "Kelechi Joe",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<a22e7a93-d232-c0f7-d2c3-91824038803e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:10:08.120Z",
+    "recipient": "joeaustin455@gmail.com",
+    "name": "Kelechi Joe",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<05db49e5-4844-b9e6-6a34-df27e16f7a8f@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:10:17.375Z",
+    "recipient": "kelvinmosco93@gmail.com",
+    "name": "Kelvin Onuigbo",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<15418f62-c9db-c752-d8a9-488be6b0d2f0@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:10:27.129Z",
+    "recipient": "kchukwukelue@gmail.com",
+    "name": "Kenechukwu Chukwukelue",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<99620d3e-3b90-7a7a-1d94-b15f5062c340@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:10:36.183Z",
+    "recipient": "swizzypounds481@gmail.com",
+    "name": "Lawrence Ohayagha",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<3216af42-0ac9-3674-4c8c-f37578600aae@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:10:45.235Z",
+    "recipient": "annabeldimma1@gmail.com",
+    "name": "Mgbenwelu Chidimma",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<983bf5e2-36cf-0f69-4928-5ee6b6d1bfc3@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:10:54.389Z",
+    "recipient": "mmaduburummichael@gmail.com",
+    "name": "Michael Mmaduburum",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<59061790-4368-c5ec-597f-514427d8fa5c@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:11:03.502Z",
+    "recipient": "miraclejamb21@gmail.com",
+    "name": "Miracle Nwankwo",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<70a984be-8fae-2fa7-dcf5-204c21a1b47e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:11:13.755Z",
+    "recipient": "mmesomaokafor19@gmail.com",
+    "name": "Mmesoma Okafor",
+    "title": "Pastor",
+    "gender": "Female",
+    "messageId": "<1c038e8d-d80a-5cf1-6e72-020814fb2265@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:11:22.817Z",
+    "recipient": "nnadozievictoria7@gmail.com",
+    "name": "Naza Nnadozie",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<ca4e8d8c-7139-2678-c602-3e2d89af20bf@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:11:31.934Z",
+    "recipient": "lawrencendubuisi97@gmail.com",
+    "name": "Ndubuisi Edeh",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<3d5308db-6a2b-f06d-075c-6ef9466552d8@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:11:41.627Z",
+    "recipient": "nnedolisa@gmail.com",
+    "name": "Nmesoma Nedolisa",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<bd9f28b8-473b-f933-4f72-3d4357fdb4eb@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:11:51.029Z",
+    "recipient": "nwabudeprecious@445gmail.com",
+    "name": "Nwabude Precious",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<83b68b96-2eca-61e1-4670-a660da2c367f@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:00.055Z",
+    "recipient": "nwaogujibreakthrough@gmail.com",
+    "name": "Nwaoguji Nweke Dumebi",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<5372cea9-7329-ee94-2dde-37b6e1966323@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:09.237Z",
+    "recipient": "lightpaul34@gmail.com",
+    "name": "Obiegbu Light",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<c21b158d-927b-b057-6fb8-ee4db192ae9e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:18.673Z",
+    "recipient": "ekingsley3005@gmail.com",
+    "name": "Ohazuruike Kingsley",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<6000730c-8733-7707-2177-fc3900278152@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:28.668Z",
+    "recipient": "elodikek@gmail.com",
+    "name": "Olisaeloka Okeke",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<9f4805e6-33f2-36ec-91e5-1af3346de980@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:37.560Z",
+    "recipient": "ejimmadu80@gmail.com",
+    "name": "Oluebube Ejimmadu",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<0f1f34c7-8338-119f-377d-90e1ddc95cf7@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:47.030Z",
+    "recipient": "isrealmech914@gmail.com",
+    "name": "Oluebube Stephen",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<c90a7058-d35a-6242-61a8-a321c1db6c54@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:12:56.942Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<668ed046-72f2-8c87-7170-5b834dba24fb@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:13:06.256Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<50ca3fe9-e0dd-bfca-1c87-2c00eab1d725@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:13:15.378Z",
+    "recipient": "philipchidiebere1590@gmail.com",
+    "name": "Philip chidibere",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<2cb1bd3d-714a-2b54-2cac-e132a85adeb5@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:13:24.712Z",
+    "recipient": "preciouspukka@gmail.com",
+    "name": "Precious Mbanekwu",
+    "title": "Pastor",
+    "gender": "Female",
+    "messageId": "<7657dc73-908d-54e7-ab07-1a7cb87fc148@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:13:33.878Z",
+    "recipient": "ezeokeruth@gmail.com",
+    "name": "Ruth-Philips Ezeoke",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<7d0abef1-c6fc-7fad-02c8-23e5c3da9e5e@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:13:44.519Z",
+    "recipient": "samueludegbunama1@gmail.com",
+    "name": "Sam Nnaemeka",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<a97d2705-2311-07b8-8818-7b1b1b97d8b8@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:13:53.508Z",
+    "recipient": "samsonnwedo@gmail.com",
+    "name": "Samson Nweso",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<1edc755a-0db9-a405-b6b5-22a570074b68@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:14:03.281Z",
+    "recipient": "molokwuchisom@gmail.com",
+    "name": "Sandra Molokwu",
+    "title": "Sis.",
+    "gender": "Female",
+    "messageId": "<e4458039-3c4c-ffcd-9d93-17472b09af89@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:14:12.273Z",
+    "recipient": "sochimamaxwellnweke@gmail.com",
+    "name": "Sochima Nweke",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<57244fe6-a960-a489-8a31-b1e5fe79bd09@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:14:21.468Z",
+    "recipient": "besofsomtochukwu@gmail.com",
+    "name": "Somtochukwu Molokwu",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<9fb0359d-7f81-8135-67f4-6a3fbeafbdc4@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:14:30.726Z",
+    "recipient": "chudisantos10@gmail.com",
+    "name": "Ugochukwu Chukwudi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<bc3b697b-8ea5-6683-91a2-532a3549a5d2@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-19T23:14:40.647Z",
+    "recipient": "obiozomatthew@gmail.com",
+    "name": "Ugochukwu Obiozor",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<364c9346-f137-3441-8e5a-2488e5a89925@thelordsbrethrenchurch.org>",
+    "status": "success"
+  }
+]
