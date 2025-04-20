@@ -1,0 +1,169 @@
+[
+  {
+    "timestamp": "2025-04-16T14:55:02.836Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "gender": "Male",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-04-16T15:01:52.463Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "gender": "Male",
+    "messageId": "<a37ba3cb-e711-d4d1-8343-72463f457d97@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T15:34:42.454Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<09d7bcdc-b17e-2f42-177b-6681d2ab0a90@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T15:34:42.465Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<4db4b466-51e2-65b9-28ac-9a51eb0550e6@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T16:42:39.525Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<097dfdad-b295-84dd-bf68-cf0553cdd3a6@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T17:23:35.785Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<2c6eb4fc-fa3b-89c9-60ed-aa639e835c5d@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T17:30:13.833Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<9613f359-5e8c-c0d8-4265-596354063535@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T17:34:54.066Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<99a923d3-3ed4-e368-8239-4451e32eee4a@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T17:40:02.601Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<fd9fa77c-05de-a344-223f-32d508032cb7@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T17:43:18.074Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<ac7b2988-2df7-c3cd-9649-158c21b050c3@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T17:47:42.376Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<9c5ae61b-7663-31e4-5fb0-aeb452389145@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T18:16:09.753Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<29ba6d20-768c-55cb-9d5b-bff7245d86e3@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T18:18:39.645Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "gender": "Male",
+    "messageId": "<35dd4454-44bb-333f-218f-7bc8a72869d7@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T20:46:32.362Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<ae10506c-2a23-68c3-b176-881ce7ebbdd7@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T20:58:29.595Z",
+    "recipient": "elodikek@gmail.com",
+    "name": "Olisaeloka Okeke",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<f74308ef-e4d6-2c62-ee5e-77981041eb4f@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T20:58:35.735Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<57a0dd6e-e30f-952d-8ce4-341aacf97aef@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T21:04:39.938Z",
+    "recipient": "elodikek@gmail.com",
+    "name": "Olisaeloka Okeke",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<bd01adc5-1cef-3410-8802-411e938af546@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T21:04:46.411Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Pastor",
+    "gender": "Male",
+    "messageId": "<f3bb7bf6-2e67-a0d0-c3df-5e331ffbe813@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T21:24:53.323Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Reverend",
+    "gender": "Male",
+    "messageId": "<3775eb24-15e6-09c1-9d13-47de1c98b9e8@thelordsbrethrenchurch.org>",
+    "status": "success"
+  },
+  {
+    "timestamp": "2025-04-16T21:32:10.759Z",
+    "recipient": "chukwudipeculiar@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Bro.",
+    "gender": "Male",
+    "messageId": "<94c1e9db-8e3b-3612-d087-76928761ec65@thelordsbrethrenchurch.org>",
+    "status": "success"
+  }
+]
