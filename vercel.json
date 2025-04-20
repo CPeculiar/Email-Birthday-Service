@@ -1,6 +1,0 @@
-{
-    "routes": [
-      { "src": "/api/birthday", "dest": "/api/birthday.js" }
-    ]
-  }
-  
