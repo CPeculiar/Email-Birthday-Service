@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-04-20T15:41:05.121Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Test User",
+    "title": "Bro.",
+    "gender": "Male",
+    "error": "connect ECONNREFUSED 127.0.0.1:587",
+    "status": "failed"
+  }
+]

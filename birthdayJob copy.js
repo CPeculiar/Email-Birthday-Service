@@ -1,10 +1,10 @@
-const { findTodaysBirthdays } = require('./db');
+const apiService = require('./apiService');
 const emailService = require('./emailService');
 
 async function sendBirthdayEmails() {
   try {
     // Find users with birthdays today
-    const birthdayCelebrants = await findTodaysBirthdays();
+    const birthdayCelebrants = await apiService.getUsersWithBirthdaysToday();
     
     console.log(`Sending birthday emails to ${birthdayCelebrants.length} members`);
     
@@ -19,23 +19,21 @@ async function sendBirthdayEmails() {
     for (const user of birthdayCelebrants) {
       if (user.email) {
         try {
-          await emailService.sendBirthdayEmail({
-            email: user.email,
-            first_name: user.first_name,
-            last_name: user.last_name
-          });
+          await emailService.sendBirthdayEmail(user);
           console.log(`Successfully sent birthday email to ${user.email}`);
         } catch (error) {
           console.error(`Failed to send email to ${user.email}:`, error);
         }
       } else {
-        console.log(`Skipping user with ID ${user.id} - no email address`);
+        console.log(`Skipping user - no email address`);
       }
     }
     
     console.log('Birthday email job completed');
+    return birthdayCelebrants.length;
   } catch (error) {
     console.error('Error in birthday email job:', error);
+    return 0;
   }
 }
 
@@ -49,6 +47,8 @@ async function runTest(testEmail) {
       email: testEmail,
       first_name: 'Test',
       last_name: 'User',
+      gender: 'Male', // Default test gender
+      birth_date: new Date().toISOString().split('T')[0] // Today
     };
     
     // Send a test email

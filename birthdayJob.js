@@ -3,6 +3,14 @@ const emailService = require('./emailService');
 
 async function sendBirthdayEmails() {
   try {
+    console.log('Starting birthday email job...');
+    
+    // Try to log in before getting users
+    const loggedIn = await apiService.login();
+    if (!loggedIn) {
+      console.error('Failed to log in to API. Will attempt to continue anyway.');
+    }
+    
     // Find users with birthdays today
     const birthdayCelebrants = await apiService.getUsersWithBirthdaysToday();
     
@@ -16,11 +24,17 @@ async function sendBirthdayEmails() {
     }
     
     // Send emails to each celebrant
+    let successCount = 0;
     for (const user of birthdayCelebrants) {
       if (user.email) {
         try {
-          await emailService.sendBirthdayEmail(user);
-          console.log(`Successfully sent birthday email to ${user.email}`);
+          const sent = await emailService.sendBirthdayEmail(user);
+          if (sent) {
+            console.log(`Successfully sent birthday email to ${user.email}`);
+            successCount++;
+          } else {
+            console.error(`Failed to send email to ${user.email}`);
+          }
         } catch (error) {
           console.error(`Failed to send email to ${user.email}:`, error);
         }
@@ -29,7 +43,7 @@ async function sendBirthdayEmails() {
       }
     }
     
-    console.log('Birthday email job completed');
+    console.log(`Birthday email job completed. Sent ${successCount}/${birthdayCelebrants.length} emails`);
     return birthdayCelebrants.length;
   } catch (error) {
     console.error('Error in birthday email job:', error);
@@ -59,8 +73,11 @@ async function runTest(testEmail) {
     } else {
       console.log(`Failed to send test email to ${testEmail}`);
     }
+    
+    return result;
   } catch (error) {
     console.error('Error running test:', error);
+    return false;
   }
 }
 

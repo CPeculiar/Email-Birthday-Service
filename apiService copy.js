@@ -1,16 +1,11 @@
 const axios = require('axios');
 require('dotenv').config();
-const https = require('https');
 
 class ApiService {
   constructor() {
+    // this.baseUrl = 'https://api.thelordsbrethrenchurch.org/api';
     this.baseUrl = process.env.API_BASE_URL;
     this.accessToken = null;
-    
-    // Create a custom HTTPS agent that ignores certificate errors
-    this.httpsAgent = new https.Agent({
-      rejectUnauthorized: false // This will bypass certificate validation
-    });
   }
 
   async login() {
@@ -19,8 +14,6 @@ class ApiService {
       const response = await axios.post(`${this.baseUrl}/login/`, {
         username: process.env.API_USERNAME,
         password: process.env.API_PASSWORD
-      }, {
-        httpsAgent: this.httpsAgent // Use the custom agent for this request
       });
 
       console.log('Login response:', JSON.stringify(response.data));
@@ -61,8 +54,7 @@ class ApiService {
         const response = await axios.get(nextPageUrl, {
           headers: {
             'Authorization': `Bearer ${this.accessToken}`
-          },
-          httpsAgent: this.httpsAgent // Use the custom agent for this request
+          }
         });
   
         if (response.data && response.data.results) {
@@ -78,9 +70,6 @@ class ApiService {
       return allUsers;
     } catch (error) {
       console.error('Failed to fetch users:', error.message);
-      if (error.response) {
-        console.error('Server response:', error.response.status, error.response.data);
-      }
       return [];
     }
   }
@@ -113,6 +102,25 @@ class ApiService {
     
     return birthdayUsers;
   }
+
+  // async getUsersWithBirthdaysToday() {
+  //   const allUsers = await this.getAllUsers();
+  //   const today = new Date();
+  //   const month = today.getMonth() + 1; // 1-12
+  //   const day = today.getDate();
+    
+  //   // Filter users whose birthdays are today
+  //   const birthdayUsers = allUsers.filter(user => {
+  //     if (!user.birth_date) return false;
+      
+  //     const birthDate = new Date(user.birth_date);
+  //     return birthDate.getDate() === day && 
+  //            birthDate.getMonth() + 1 === month;
+  //   });
+    
+  //   console.log(`Found ${birthdayUsers.length} users with birthdays today`);
+  //   return birthdayUsers;
+  // }
 }
 
 module.exports = new ApiService();

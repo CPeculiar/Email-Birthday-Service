@@ -3,19 +3,16 @@ const path = require('path');
 const fs = require('fs');
 require('dotenv').config();
 
+
 class EmailService {
   constructor() {
     this.transporter = nodemailer.createTransport({
       host: process.env.EMAIL_HOST,
       port: parseInt(process.env.EMAIL_PORT),
-      secure: process.env.EMAIL_SECURE === 'true', // Convert string to boolean
+      secure: false, // Use TLS
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS
-      },
-      tls: {
-        // Do not fail on invalid certs
-        rejectUnauthorized: false
       }
     });  
     
@@ -28,8 +25,8 @@ class EmailService {
       fs.mkdirSync(this.logsDirectory, { recursive: true });
     }
 
-    // List of people with special titles
-    this.specialTitles = {
+     // List of people with special titles
+     this.specialTitles = {
       'Olisaeloka Okeke': 'Pastor',
       'Mmesoma Okafor': 'Pastor',
       'Ikechukwu Egwu': 'Pastor',
@@ -50,70 +47,53 @@ class EmailService {
   async sendBirthdayEmail(user) {
     const { email, first_name, last_name, gender } = user;
     
-    // Set name with appropriate title
-    let title = '';
-    const fullName = `${first_name || ''} ${last_name || ''}`.trim();
-    
-    // Check if the person has a special title
-    if (this.specialTitles[fullName]) {
-      title = this.specialTitles[fullName];
-    } else {
-      // Default title based on gender
-      title = gender === 'Male' ? 'Bro.' : (gender === 'Female' ? 'Sis.' : '');
-    }
-    
-    // Determine appropriate subject and greeting based on title
-    let subject = 'Happy Birthday! 🎂';
-    let greeting = 'dear';
-    
-    if (title === 'Pastor' || title === 'Reverend' || title === 'Evangelist') {
-      subject = `Happy Birthday, ${title}! 🎂`;
-      greeting = 'Reverend';
-    }
-    
-    const displayName = title ? `${title} ${first_name}` : (first_name || email.split('@')[0]);
-    
+   // Set name with appropriate title
+   let title = '';
+   const fullName = `${first_name || ''} ${last_name || ''}`.trim();
+   
+   // Check if the person has a special title
+   if (this.specialTitles[fullName]) {
+     title = this.specialTitles[fullName];
+   } else {
+     // Default title based on gender
+     title = gender === 'Male' ? 'Bro.' : (gender === 'Female' ? 'Sis.' : '');
+   }
+   
+   const displayName = title ? `${title} ${first_name}` : (first_name || email.split('@')[0]);
+   
     const mailOptions = {
       from: `"The Lord's Brethren Church" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: subject,
+      subject: 'Happy Birthday! 🎂',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px;">
-          <h1 style="color: #4a4a4a; text-align: center;">Happy Birthday, ${greeting} ${displayName}! 🎉</h1>
+          <h1 style="color: #4a4a4a; text-align: center;">Happy Birthday, ${displayName}! 🎉</h1>
           <div style="text-align: center;">
              <img src="cid:birthdaycard" alt="Birthday Card" 
               style="width: 100%; max-width: 700px; border-radius: 8px; height: auto; display: block; margin: 0 auto;" />
           </div>
           <p style="font-size: 16px; line-height: 1.5; color: #666; margin-top: 20px;">
-            What a time to celebrate the gift of God over us, a pastor after God's own heart. 
+            On behalf of the entire church, we want to wish you a very special happy birthday.
           </p>
           <p style="font-size: 16px; line-height: 1.5; color: #666;">
-           Not a day goes by that we do not thank God for allowing us to meet you. Your presence is truly a blessing, 
-           and we cannot trade it for anything. Your faith and commitment to the Lord's work inspire us all and may God 
-           continue to strengthen you in the same.
-          </p>
-          <p style="font-size: 16px; line-height: 1.5; color: #666;">
-           Pastor, your words and actions have changed the lives of so many and had them established in God's plan for their lives.
-           We could not have experienced this journey of spiritual growth without you, sir.
-          </p>
-          <p style="font-size: 16px; line-height: 1.5; color: #666;">
-           On this day and always, we pray that you are kept for our joy and furtherance of faith.
+            In this new year of your life, you will make progress in the knowledge of God's word, you will bear more ministry fruits, many shall be saved and discipled through 
+            your ministry efforts and the work shall be done.
           </p>
           <div style="text-align: center; margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 8px;">
             <p style="font-size: 14px; color: #888; margin: 0;">
-              Happy birthday, dear ${title ? title : 'friend'}.
+              Happy birthday to you!  
               <p style="font-size: 14px; color: #888; margin: 0;"> We love you, dear ${displayName}!</p>
             </p>
           </div>
           <p style="font-size: 16px; font-weight: bold; text-align: center; margin-top: 20px; color: #4a4a4a;">
-            Thank you!
+            Blessings!
           </p>
         </div>
       `,
       attachments: [
         {
           filename: 'Happy Birthday.jpg',
-          path: path.join(__dirname, 'assets/MOG_Bday.jpg'), 
+          path: path.join(__dirname, 'assets/HappyBirthdayCard.jpg'), 
           cid: 'birthdaycard'
         }
       ]

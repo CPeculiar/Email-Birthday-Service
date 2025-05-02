@@ -1,0 +1,78 @@
+[
+  {
+    "timestamp": "2025-05-02T15:50:35.123Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-05-02T15:51:10.714Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-05-02T15:53:19.030Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-05-02T15:54:03.314Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2025-05-02T15:59:03.881Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Esteemed Member",
+    "gender": "Female",
+    "error": "Connection timeout",
+    "status": "failed",
+    "attempts": 3
+  },
+  {
+    "timestamp": "2025-05-02T16:09:08.893Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Esteemed Member",
+    "gender": "Female",
+    "error": "Connection timeout",
+    "status": "failed",
+    "attempts": 3
+  },
+  {
+    "timestamp": "2025-05-02T16:17:47.048Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Esteemed Member",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed",
+    "attempts": 4
+  },
+  {
+    "timestamp": "2025-05-02T16:31:09.389Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Esteemed Member",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed",
+    "attempts": 4
+  }
+]
