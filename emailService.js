@@ -44,7 +44,6 @@ class EmailService {
       'Precious Mbanekwu': 'Pastor',
       'Faith Bidiki': 'Pastor',
       'Elochukwu Udegbunam': 'Reverend',
-      'Peculiar Chukwudi': 'Esteemed Member'
     };
   }
 
@@ -206,7 +205,7 @@ class EmailService {
     const displayName = title ? `${title} ${first_name}` : (first_name || email.split('@')[0]);
     
     // Check if the birthday card image exists
-    const imagePath = path.join(__dirname, 'assets/MOG_Bday.jpg');
+    const imagePath = path.join(__dirname, 'assets/3rd_May.jpg');
     let hasImage = fs.existsSync(imagePath);
     
     if (!hasImage) {
@@ -244,8 +243,7 @@ class EmailService {
           </p>
           <div style="text-align: center; margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 8px;">
             <p style="font-size: 14px; color: #888; margin: 0;">
-              Happy birthday, dear Reverend Most Holy!
-              <p style="font-size: 14px; color: #888; margin: 0;"> We love you, dear ${displayName}!</p>
+              Happy birthday, dear Reverend Most Holy!     
             </p>
           </div>
         </div>

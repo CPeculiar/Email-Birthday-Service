@@ -74,5 +74,15 @@
     "error": "connect ETIMEDOUT 64.90.62.162:587",
     "status": "failed",
     "attempts": 4
+  },
+  {
+    "timestamp": "2025-05-02T16:50:08.563Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Esteemed Member",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed",
+    "attempts": 4
   }
 ]
