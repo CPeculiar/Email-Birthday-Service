@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-05-03T05:50:40.640Z",
+    "recipient": "besofelochukwu@gmail.com",
+    "name": "Elochukwu Udegbunam",
+    "title": "Reverend",
+    "gender": "Male",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed",
+    "attempts": 4
+  },
+  {
+    "timestamp": "2025-05-03T05:52:19.920Z",
+    "recipient": "pecudamicable@gmail.com",
+    "name": "Peculiar Chukwudi",
+    "title": "Sis.",
+    "gender": "Female",
+    "error": "connect ETIMEDOUT 64.90.62.162:587",
+    "status": "failed",
+    "attempts": 4
+  }
+]
